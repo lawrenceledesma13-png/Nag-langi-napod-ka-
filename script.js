@@ -3,7 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Happy Valentines Day, Adrii <: ').split('')
+    const titles = ('Happy Valentine's Day, Adrii <: ').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
@@ -19,4 +19,5 @@ onload = () => {
 
     clearTimeout(c);
   }, 1000);
+
 };
